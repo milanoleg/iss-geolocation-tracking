@@ -1,0 +1,50 @@
+.container {
+  margin: 0 auto;
+  height: 300px;
+  width: 75%;
+  max-width: 900px;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #ed4b15 solid 1px;
+}
+
+.map-info {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+  border: #ed4b15 solid 1px;
+  border-radius: 8px;
+
+  > div:nth-child(2) {
+    margin-left: 20px;
+  }
+}
+
+.refetch-button {
+  background-color: #ed4b15;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  padding: 5px 15px;
+  border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.circle {
+  border-radius: 50%;
+  border: 2px solid #ed4b15;
+}
